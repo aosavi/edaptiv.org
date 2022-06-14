@@ -11,67 +11,65 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Welcome to our Studio!
-    text: It's Nice To Meet You
+    title: Tomorrow's Technology for Today's Education
+    text: <img src="assets/img/logo/edaptiv_logo_square_new.png" width=200>
     button: Tell Me More
     buttonlink: "#services"
 
   services:
-    title: "Services"
-    text: "Lorem ipsum"
+    title: "Our Expertise"
+    text: "<strong>edaptiv</strong> believes <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapt to education. Our AI makes this happen."
     section: services
     list:
-      - title: "E-Commerce"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Responsive Design"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
+      - title: "Pedagogy-Driven AI"
+        desc: "Ordinary educational AI is driven by data rather than pedagogy. Our AI is built upon **proven pedagogical principles**."
+        icon: fa fa-atom # https://fontawesome.com/search?m=free
+      - title: "Adaptive Algorithms"
+        desc: "Adaptive algorithms enable educational personalization. Our state-of-the-art algorithms are **tried-and-tested**."
         icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Your description here, full **Markdown** support"
-        icon: fab fa-markdown
+      - title: "Advanced Analytics"
+        desc: "Teachers must be able to spend their time on teaching. Our technology aids teachers with **insightful** and **actionable** learner analytics."
+        icon: fa fa-microscope
+      - title: "Causal Evaluations"
+        desc: "What works for whom in education? Our causal evaluations are build to scale and **respect individual differences**."
+        icon: fa fa-clipboard-check
+      - title: "Formal Theory"
+        desc: "Educational AI must be backed by educational theory. Our theory describes the **role of education** in learners' cognitive development."
+        icon: fa fa-brain
 
   portfolio:
     title: "Portfolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
+    text: "Scientific rigor, serious impact."
     section: portfolio
     closebutton: "Close Project"
 
-  timeline:
-    title: "Timeline"
-    text: "Lorem ipsum timeline"
-    section: timeline
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Our Humble Beginnings"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "An Agency is Born"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "Jekyll Theme is created"
-        year: "2019"
-        desc: "Ravi Riley converted Agency, a Bootstrap-based theme, into a Jekyll theme. The Jekyll theme can be installed as a Ruby gem, or remotely. For more information, visit the documentation."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Title"
-        year: "2009-2011"
-        desc: "Your description here, **Markdown** is fully supported."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "Be Part <br> of Our <br> Story!"
-
   about:
     title: "About Us"
-    text: "our story"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
+    text: "Our vision and philosophy."
+    body: "
+    **Today's challenges in education demand a strong technological foundation.**
+    <br><br>
+    **edaptiv** leverages solid scientific expertise with educational partnerships to conceptualize and create tomorrow's technological foundation.
+    **edaptiv** is an alliance of leading researchers in pedagogy-driven AI, adaptive learning algorithms, advanced learning analytics, massive causal evaluations, and formal educational theory.
+    **edaptiv** develops state-of-the-art educational technology and collaborates in research with both scientific and educational partners.
+    <br><br>
+
+    **Educational technology must respect individual variablity in learning and development.**
+    <br><br>
+    Children learn and develop in uniquely different ways.
+    Varying environments and experiences, and their reciprocal interactions, yield a massive developmental variability.
+    Cognitive abilities emerge from this complex developmental system.
+    Educational technology can and must embrace that variability, by optimally guiding children during their individual development.
+    **edaptiv** develops educational technology that respects individual variability *by design*.
+    <br><br>
+
+    **Educational AI must be informed and driven by pedagogy.**
+    <br><br>
+    Much too often, educational AI is ignorant of proven pedagogical principles.
+    This is a major missed opportunity and a scorn to the many significant insights from substantive educational research.
+    Educational AI must not only propel the pedagogical principles already effectively applied in educational practice, but also enable those principles that are hard to satisfy under everyday conditions.
+    **edaptiv** develops educational AI that respects pedagogical principles.
+    "
     section: about
 
   clients:
@@ -79,65 +77,201 @@ en: &DEFAULT_EN
     max-height: 100px
     horizontal-scrolling: "" #"yes/no"
     list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
+      - title: "University of Amsterdam"
+        url: https://www.uva.nl/en # logos copy-pasted in uu template to create similar margins
+        logo: assets/img/clients/uva_edited.jpg # https://www.uva.nl/over-de-uva/over-de-universiteit/huisstijl/huisstijlelementen/logo/logo.html
+      - title: "Utrecht University"
+        url: https://www.uu.nl/en
+        logo: assets/img/clients/uu_edited.png # https://www.uu.nl/organisatie/huisstijl/downloads/logo
+      - title: "Tilburg University"
+        url: https://www.tilburguniversity.edu/
+        logo: assets/img/clients/tu_edited.jpg # https://www.tilburguniversity.edu/taxonomy/term/2172?page=1
+      - title: "VU Amsterdam"
+        url: https://vu.nl/en
+        logo: assets/img/clients/vu_edited.jpg # https://vu.nl/nl/over-de-vu/meer-over/vu-logo
 
   team:
-    title: "OUR AMAZING TEAM"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
+    title: "TEAM"
+    text: "Our principal investigators, partners, fellows, students, and advisory board.
+    <br><br>For contact, use the form below or approach a principal investigator."
+    subtext:
     section: team
     people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
+      - name: "Dr. Alexander Savi"
+        role: "Founder / Director / Principal Investigator"
+        image: assets/img/team/savi_square.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.alexandersavi.nl/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/alexandersavi/
             icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
+          - url: https://twitter.com/alexandersavi
+            icon: fab fa-twitter
+          - url: https://scholar.google.com/citations?user=x8Him1UAAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Alexander-Savi
+            icon: ai ai-researchgate
+      - name: "Dr. Abe Hofman"
+        role: "Founder / Director / Principal Investigator"
+        image: assets/img/team/hofman_square.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/abehofman/
             icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
+          - url: https://scholar.google.com/citations?user=cHKQkT4AAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Abe-Hofman
+            icon: ai ai-researchgate
+      - name: "Dr. Maria Bolsinova"
+        role: "Principal Investigator"
+        image: assets/img/team/bolsinova_square.jpg
         social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
+          - url: https://www.linkedin.com/in/maria-bolsinova-0599b3127/
             icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=kHhwY4UAAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Maria-Bolsinova
+            icon: ai ai-researchgate
+      - name: "Dr. Matthieu Brinkhuis"
+        role: "Principal Investigator"
+        image: assets/img/team/brinkhuis_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/brinkhuis/
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=2IXY3n4AAAAJ
+            icon: ai ai-google-scholar
+      - name: "Dr. Claire Stevenson"
+        role: "Principal Investigator"
+        image: assets/img/team/stevenson_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/claire-stevenson-9445b253/
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.nl/citations?user=nmT-EaUAAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Claire-Stevenson-4
+            icon: ai ai-researchgate
+      - name: "Sharon Klinkenberg"
+        role: "Principal Investigator"
+        image: assets/img/team/klinkenberg.jpg
+        social:
+          - url: https://www.klinkenberg.amsterdam/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/sharonklinkenberg/
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.co.il/citations?user=rB1Afg4AAAAJ
+            icon: ai ai-google-scholar
+      - name: "Prof. Dr. Han van der Maas"
+        role: "Advisory Board"
+        image: assets/img/team/vandermaas_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/han-l-j-van-der-maas-966b7111/
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=yL2EByAAAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Han-Maas
+            icon: ai ai-researchgate
+      - name: "Prof. Dr. Martijn Meeter"
+        role: "Advisory Board"
+        image: assets/img/team/meeter.jpg
+        social:
+          - url: http://www.meeter.nl/m/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/martijn-meeter-a6a7247
+            icon: fab fa-linkedin-in
+          - url: https://twitter.com/martijnmeeter
+            icon: fab fa-twitter
+          - url: https://scholar.google.com/citations?user=nRn5yqMAAAAJ
+            icon: ai ai-google-scholar
+      - name: "Dr. Brenda Jansen"
+        role: "Advisory Board"
+        image: assets/img/team/jansen_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/brenda-jansen-a255b25
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=SoURbp0AAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Brenda-Jansen
+            icon: ai ai-researchgate
+      - name: "Simone Plak, MSc"
+        role: "PhD Student"
+        image: assets/img/team/plak_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/simone-plak-249a31b6
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=35eRDi8AAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Simone-Plak
+            icon: ai ai-researchgate
+
+  timeline:
+    title: "Urgency"
+    text: "Why our work matters."
+    section: timeline
+    # left is the default
+    #start_align: "left"
+    events:
+      - title: "ISEE Assessment Report 2022" # https://mgiep.unesco.org/iseeareport
+        year: "UNESCO"
+        desc: "
+        \"Every learner learns differently, and is influenced by a complex combination
+        of internal factors (biological including neurobiological) and context
+        (political, social, cultural, institutional, environmental, technological, etc.).
+        Therefore, receiving a personalized learning experience is an entitlement and
+        a human right for every learner.\"
+        "
+        image: assets/img/timeline/UNESCO_square.jpg
+        alt:
+      - title: "Reimagine Education" # https://www.unicef.org/reimagine/education
+        year: "UNICEF"
+        desc: "
+        \"We urgently need to reimagine education. A modern education should build
+        and accredit basic skills – reading, writing and math – as well as skills
+        in problem-solving, creativity, critical thinking that young people need for work,
+        to start a business and to engage productively in their communities.
+        <br><br>
+        The availability and potential of technology means that digital learning should
+        be part of a basic basket of essential services for every child and young person.
+        <br><br>
+        This means connecting every child and young person – some 3.5 billion by
+        2030 – to world-class digital solutions that offer personalized learning to
+        leapfrog to a brighter future.\"
+        "
+        image: assets/img/timeline/UNICEF_square.jpg
+        alt:
+      - title: "Future of Education and Skills 2030" # https://www.oecd.org/education/2030-project/
+        year: "OECD"
+        desc: "
+        \"Future-ready students need to exercise agency, in their own education and throughout life.
+        Agency implies a sense of responsibility to participate in the world and,
+        in so doing, to influence people, events and circumstances for the better.
+        Agency requires the ability to frame a guiding purpose and identify actions
+        to achieve a goal.
+        <br><br>
+        Two factors, in particular, help learners enable agency. The first is a personalised
+        learning environment that supports and motivates each student to nurture his or her
+        passions, make connections between different learning experiences and opportunities,
+        and design their own learning projects and processes in collaboration with others.\"
+        "
+        image: assets/img/timeline/OECD_square.jpg
+        alt: image alt text
+      # - title: "" # https://www.theewf.org/, https://www.weforum.org/agenda/2020/08/science-education-reset-stem-technology/
+      #   year: ""
+      #   desc: ""
+      #   image: assets/img/timeline/4.jpg
+      #   alt:
+      #   # you can enforce the alignment
+      #   align: right
+    end: "Build <br> Tomorrow <br> Today"
 
   contact:
-    title: "Contact Us"
-    text: "Lorem ipsum or call 123456789"
+    title: "Work With Us"
+    text: "<strong>edaptiv</strong> welcomes <strong>collaborations</strong> with <strong>scientific</strong> and <strong>educational partners</strong>.
+    <br><br>Interested? Drop us a line."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
     email: "Email*"
     email-validation: "Please enter your email address."
-    phone: "Phone Number"
+    phone: "Phone Number*"
     phone-validation: "Please enter your phone number."
     message: "Message*"
     message-validation: "Please enter a message."
@@ -146,17 +280,17 @@ en: &DEFAULT_EN
 
   footer:
     legal: "Privacy Policy"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
+    # social:
+    #   - url: https://twitter.com
+    #     icon: "fab fa-twitter"
+    #   - url: https://facebook.com
+    #     icon: "fab fa-facebook-f"
+    #   - url: https://linkedin.com
+    #     icon: "fab fa-linkedin-in"
+    #   - url: https://github.com/raviriley/agency-jekyll-theme
+    #     icon: "fab fa-github"
+    #   - url: https://instagram.com
+    #     icon: "fab fa-instagram"
 en-US:
   <<: *DEFAULT_EN
 en-CA:
@@ -165,158 +299,3 @@ en-GB:
   <<: *DEFAULT_EN
 en-AU:
   <<: *DEFAULT_EN
-
-# Spanish
-# -------
-es: &DEFAULT_ES
-  header:
-    title: ¡Bienvenido a nuestro Estudio!
-    text: Es un placer conocerle
-    button: Ver más
-    buttonlink: "#servicios"
-
-  services:
-    title: "Servicios"
-    text: "Lorem ipsum"
-    section: servicios
-    list:
-      - title: "Comercio Electrónico"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-shopping-cart #find more at https://fontawesome.com/icons
-      - title: "Diseño Responsivo"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit."
-        icon: fas fa-laptop
-      - title: "[Markdown](https://en.wikipedia.org/wiki/Markdown)"
-        desc: "Su descripción aquí, soporte completo de **Markdown**"
-        icon: fab fa-markdown
-
-  portfolio:
-    title: "Portafolio"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    section: portafolio
-    closebutton: "Cerrar Proyecto"
-
-  timeline:
-    title: "Cronología"
-    text: "Lorem ipsum timeline"
-    section: cronologia
-    # left is the default
-    #start_align: "left"
-    events:
-      - title: "Nuestro Humilde Comienzo"
-        year: "2009-2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/1.jpg
-        alt:
-      - title: "Una Agencia nace"
-        year: "March 2011"
-        desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!"
-        image: assets/img/timeline/2.jpg
-        alt:
-      - title: "La plantilla Jekyll es creada"
-        year: "2019"
-        desc: "Ravi Riley convirtió Agency, una plantilla basada en Bootstrap, en una plantilla de Jekyll. La plantilla Jekyll puede ser instalada commo una gema de Ruby (Ruby gem) o remotamente. Para más información, visite la documentación."
-        image: assets/img/timeline/3.jpg
-        alt: image alt text
-      - title: "Título"
-        year: "2009-2011"
-        desc: "Su descripción aquí, **Markdown** es soportado completamente."
-        image: assets/img/timeline/4.jpg
-        alt:
-        # you can enforce the alignment
-        align: right
-    end: "¡Se parte <br> de Nuestra <br> Historia!"
-
-  about:
-    title: "Sobre nosotros"
-    text: "nuestra historia"
-    body: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported."
-    section: nosotros
-
-  clients:
-    section: clientes
-    max-height: 100px
-    horizontal-scrolling: "" #"yes/no"
-    list:
-      - title: "envato"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/envato.jpg
-      - title: "designmodo"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/designmodo.jpg
-      - title: "themeforest"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/themeforest.jpg
-      - title: "Creative Market"
-        url: https://github.com/raviriley/agency-jekyll-theme
-        logo: assets/img/clients/creative-market.jpg
-
-  team:
-    title: "NUESTRO INCREÍBLE EQUIPO"
-    text: "Lorem ipsum dolor sit amet consectetur."
-    subtext: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde. **Markdown** supported.
-    section: equipo
-    people:
-      - name: "Kay Garland"
-        role: "Lead Designer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Larry Parker"
-        role: "Lead Marketer"
-        image: assets/img/team/2.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-      - name: "Diana Perterson"
-        role: "Lead Developer"
-        image: assets/img/team/500x500.jpg
-        social:
-          - url: https://twitter.com
-            icon: fab fa-twitter
-          - url: https://facebook.com
-            icon: fab fa-facebook-f
-          - url: https://linkedin.com
-            icon: fab fa-linkedin-in
-
-  contact:
-    title: "Contáctenos"
-    text: "Lorem ipsum or call 123456789"
-    section: contacto
-    name: "Nombre*"
-    name-validation: "Por favor ingrese su nombre."
-    email: "Correo Electrónico*"
-    email-validation: "Por favor ingrese su correo electrónico."
-    phone: "Número Telefónico*"
-    phone-validation: "Por favor ingrese su número telefónico."
-    message: "Mensaje*"
-    message-validation: "Por favor escriba un mensaje."
-    subject: "Envío del formulario de contacto"
-    submit: "Enviar Mensaje"
-
-  footer:
-    legal: "Política de Privacidad"
-    social:
-      - url: https://twitter.com
-        icon: "fab fa-twitter"
-      - url: https://facebook.com
-        icon: "fab fa-facebook-f"
-      - url: https://linkedin.com
-        icon: "fab fa-linkedin-in"
-      - url: https://github.com/raviriley/agency-jekyll-theme
-        icon: "fab fa-github"
-      - url: https://instagram.com
-        icon: "fab fa-instagram"
-es-ES:
-  <<: *DEFAULT_ES
-es-CO:
-  <<: *DEFAULT_ES
