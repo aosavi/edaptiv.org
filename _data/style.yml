@@ -1,8 +1,8 @@
 #Color Customization
-#highlight: "#54bfff"
-#white: "#FF0000"
-#black: "#000"
+highlight: "#447FDD"
+# white: "#FF0000"
+# black: "#E69F00"
 
 #Image Customization
-header-image: "../img/header-bg.jpg"
-contact-image: "../img/map-image.png"
+header-image: "../img/pexels-max-fischer-5212695_dark.jpg"
+contact-image: "../img/pexels-alex-andrews-821754.jpg"
