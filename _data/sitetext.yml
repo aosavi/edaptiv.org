@@ -33,7 +33,10 @@ en: &DEFAULT_EN
       - title: "Causal Evaluations"
         desc: "What works for whom in education? Our causal evaluations are build to scale and **respect individual differences**."
         icon: fa fa-clipboard-check
-      - title: "Formal Theory"
+      - title: "Game Development"
+        desc: "In educational games, modularity is key. Our modules, including item banks and scoring rules, are **at the core of games played daily**."
+        icon: fa fa-chess
+      - title: "Theory Formation"
         desc: "Educational AI must be backed by educational theory. Our theory describes the **role of education** in learners' cognitive development."
         icon: fa fa-brain
 
@@ -92,7 +95,7 @@ en: &DEFAULT_EN
 
   team:
     title: "TEAM"
-    text: "Our principal investigators, partners, fellows, students, and advisory board.
+    text: "Our principal investigators, research fellows, PhD students, and advisory board.
     <br><br>For contact, use the form below or approach a principal investigator."
     subtext:
     section: team
@@ -143,8 +146,12 @@ en: &DEFAULT_EN
         role: "Principal Investigator"
         image: assets/img/team/stevenson_square.jpg
         social:
+          - url: https://modelingcreativity.org
+            icon: fa fa-globe
           - url: https://www.linkedin.com/in/claire-stevenson-9445b253/
             icon: fab fa-linkedin-in
+          - url: https://twitter.com/ClaireS012345
+            icon: fab fa-twitter
           - url: https://scholar.google.nl/citations?user=nmT-EaUAAAAJ
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Claire-Stevenson-4
@@ -201,6 +208,14 @@ en: &DEFAULT_EN
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Simone-Plak
             icon: ai ai-researchgate
+      - name: "Yvonne Oberholzer, MSc"
+        role: "Research Fellow"
+        image: assets/img/team/oberholzer_square.jpg
+        social:
+          - url: https://twitter.com/yvonneoberholz
+            icon: fab fa-twitter
+          - url: https://scholar.google.com/citations?user=wmZl4eYAAAAJ
+            icon: ai ai-google-scholar
 
   timeline:
     title: "Urgency"
@@ -265,7 +280,7 @@ en: &DEFAULT_EN
   contact:
     title: "Work With Us"
     text: "<strong>edaptiv</strong> welcomes <strong>collaborations</strong> with <strong>scientific</strong> and <strong>educational partners</strong>.
-    <br><br>Interested? Drop us a line."
+    <br><br>Interested? Drop us a line, we always reply."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
