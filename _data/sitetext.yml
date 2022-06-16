@@ -12,7 +12,7 @@
 en: &DEFAULT_EN
   header:
     title: Tomorrow's Technology for Today's Education
-    text: <img src="assets/img/logo/edaptiv_logo_square_new.png" width=200>
+    text: <img src="assets/img/logo/edaptiv_logo_web_full.png" width=300>
     button: Tell Me More
     buttonlink: "#services"
 
