@@ -10,7 +10,7 @@ caption:
   thumbnail: assets/img/portfolio/pexels-mart-production-8471977_thumbnail_reduced.jpg
 ---
 
-We built a foundation for computer adaptive practice in education. This project evolved into the widely used learning platform Math Garden, now known as [Prowise Learn](https://www.prowise.com/en/prowise-learn/). The developed adaptive algorithm has been applied in a wide range of domains, ranging from math, language, and logic, to typing. Bridging the gap between education and research, the in the past decade obtained data has played a fundamental role in various fields of psychological research.
+We built a foundation for computer adaptive practice in education, inspired by the Elo rating system in chess. This project evolved into the widely used learning platform Math Garden, now known as [Prowise Learn](https://www.prowise.com/en/prowise-learn/). The developed adaptive algorithm has been applied in a wide range of domains, ranging from math, language, and logic, to typing. Bridging the gap between education and research, over a decade of large-scale practice data has played a fundamental role in various fields of psychological research.
 
 {:.list-inline}
 - **Core team:** Sharon Klinkenberg, Marthe Straatemeier, Han van der Maas.
