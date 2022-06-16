@@ -1,0 +1,124 @@
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+	  <a class="navbar-brand js-scroll-trigger" href="#page-top">
+          {%- if site.logo -%}
+            <img height="{{ site.logo.height | default: 52 }}" src="{{ site.logo.path }}"/>
+          {%- else -%}
+            {{ site.title }}
+          {%- endif -%}
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+        {% for link in site.data.navigation[site.locale].nav %}
+          <li class="nav-item">
+            {%- if link.url -%}
+              <a class="nav-link js-scroll-trigger" href="{{ link.url }}">{{ link.title }}</a>
+            {%- else if link.section -%}
+              <a class="nav-link js-scroll-trigger" href="#{{ link.section }}">{{ link.title }}</a>
+            {%- else -%}
+              <a class="nav-link js-scroll-trigger" href="#">{{ link.title }}</a>
+            {%- endif -%}
+          </li>
+        {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- End Navigation -->
+  
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container">
+      <div class="intro-text">
+	  {%- if site.data.sitetext[site.locale].header.title -%}
+        <div class="intro-lead-in">{{ site.data.sitetext[site.locale].header.title | markdownify }}</div>
+	  {%- endif -%}
+
+        <div class="intro-heading text-uppercase">
+          
+          <?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 768 768" style="enable-background:new 0 0 768 768;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#7DB0EA;}
+	.st1{fill:#225BB2;}
+	.st2{fill:none;stroke:#225BB2;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#7DB0EA;stroke-width:12;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st4{clip-path:url(#SVGID_00000159440740586507716370000006506606273265682567_);}
+	.st5{fill-rule:evenodd;clip-rule:evenodd;fill-opacity:0;}
+	.st6{fill:#973D21;}
+	.st7{fill:#DA6C42;}
+	.st8{fill:#BAD6F9;}
+	.st9{fill:#447FDD;}
+	.st10{fill:#133E7E;}
+</style>
+<g id="circle">
+	<path class="st0" d="M688,446l-46.6-105h14.8l42.8,97.4h-7l43.4-97.4h14l-46.8,105H688z"/>
+	<path class="st1" d="M325.7,341.5l46.6,105h-14.8l-42.8-97.4h7l-43.4,97.4h-14l46.8-105H325.7z"/>
+	<path class="st2" d="M681.7,485.1L681.7,485.1C644.1,556.7,566.3,597.9,486,588.6c-80.4-9.2-146.8-66.9-167.2-145.1"/>
+	<path class="st3" d="M337,298.9L337,298.9c38.8-70,116.3-109.3,195.7-99.3c79.4,10,144.7,67.2,165.1,144.6"/>
+</g>
+<g id="text">
+	<g>
+		<defs>
+			<rect id="SVGID_1_" width="768" height="768"/>
+		</defs>
+		<clipPath id="SVGID_00000030473205790451699680000004351215533565958287_">
+			<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+		</clipPath>
+		<g style="clip-path:url(#SVGID_00000030473205790451699680000004351215533565958287_);">
+			<path class="st5" d="M0,0h768v768H0V0z"/>
+			<path class="st5" d="M337,298.9L337,298.9c38.8-70,116.3-109.3,195.7-99.3c79.4,10,144.7,67.2,165.1,144.6L508.3,394L337,298.9z"
+				/>
+			<path class="st5" d="M337,298.9L337,298.9c38.8-70,116.3-109.3,195.7-99.3c79.4,10,144.7,67.2,165.1,144.6"/>
+			<path class="st5" d="M681.7,485.1L681.7,485.1C644.1,556.7,566.3,597.9,486,588.6c-80.4-9.2-146.8-66.9-167.2-145.1L508.3,394
+				L681.7,485.1z"/>
+			<path class="st5" d="M681.7,485.1L681.7,485.1C644.1,556.7,566.3,597.9,486,588.6c-80.4-9.2-146.8-66.9-167.2-145.1"/>
+			<path class="st5" d="M-4.5,243.1h768v261.8h-768L-4.5,243.1z"/>
+			<path class="st6" d="M73.8,447c-10.9,0-20.5-2.3-28.8-6.9c-8.3-4.6-14.7-10.9-19.4-19c-4.7-8.1-7-17.3-7-27.7
+				c0-10.4,2.2-19.6,6.7-27.6c4.5-8,10.6-14.3,18.4-18.9c7.8-4.6,16.6-6.9,26.3-6.9c9.9,0,18.6,2.2,26.3,6.7s13.7,10.7,18.1,18.8
+				c4.4,8.1,6.6,17.4,6.6,27.9c0,0.7,0,1.4-0.1,2.1c-0.1,0.7-0.1,1.5-0.1,2.3H29.4v-10.6h83.8l-5.6,4.2c0-7.6-1.6-14.4-4.9-20.3
+				c-3.3-5.9-7.7-10.6-13.3-13.9c-5.6-3.3-12.1-5-19.4-5c-7.2,0-13.7,1.7-19.4,5c-5.7,3.3-10.2,8-13.4,14s-4.8,12.9-4.8,20.6v2.2
+				c0,8,1.8,15,5.3,21.1c3.5,6.1,8.5,10.8,14.8,14.2c6.3,3.4,13.6,5.1,21.7,5.1c6.4,0,12.4-1.1,17.9-3.4c5.5-2.3,10.3-5.7,14.3-10.4
+				l8,9.2c-4.7,5.6-10.5,9.9-17.5,12.8C89.9,445.5,82.2,447,73.8,447z"/>
+			<path class="st7" d="M191.8,447c-10,0-19-2.3-26.9-6.8c-7.9-4.5-14.2-10.8-18.7-18.9c-4.5-8.1-6.8-17.4-6.8-27.9
+				c0-10.7,2.3-20,6.8-28s10.8-14.2,18.7-18.7c7.9-4.5,16.9-6.7,26.9-6.7c9.2,0,17.4,2.1,24.7,6.2c7.3,4.1,13.1,10.2,17.4,18.1
+				c4.3,7.9,6.5,17.6,6.5,29.1c0,11.3-2.1,21-6.4,29c-4.3,8-10,14.1-17.3,18.3S201.1,447,191.8,447z M192.8,434.4
+				c7.5,0,14.2-1.7,20.1-5.1c5.9-3.4,10.6-8.2,14-14.4c3.4-6.2,5.1-13.4,5.1-21.5c0-8.3-1.7-15.5-5.1-21.6
+				c-3.4-6.1-8.1-10.9-14-14.3c-5.9-3.4-12.6-5.1-20.1-5.1c-7.3,0-13.9,1.7-19.8,5.1s-10.5,8.2-14,14.3s-5.2,13.3-5.2,21.6
+				c0,8.1,1.7,15.3,5.2,21.5c3.5,6.2,8.1,11,14,14.4C178.9,432.7,185.5,434.4,192.8,434.4z M232.4,446v-31.6l1.4-21.2l-2-21.2v-74.4
+				H246V446H232.4z"/>
+			<path class="st8" d="M444.6,447c-9.1,0-17.3-2.1-24.6-6.3c-7.3-4.2-13.2-10.3-17.5-18.2c-4.3-7.9-6.5-17.6-6.5-29.1
+				c0-11.5,2.1-21.2,6.4-29.1c4.3-7.9,10.1-14,17.4-18.1c7.3-4.1,15.6-6.2,24.8-6.2c10,0,19,2.2,26.9,6.7
+				c7.9,4.5,14.2,10.7,18.7,18.8c4.5,8.1,6.8,17.4,6.8,27.9c0,10.7-2.3,20-6.8,28c-4.5,8-10.8,14.3-18.7,18.8
+				C463.6,444.7,454.6,447,444.6,447z M390.4,484.8V341H404v31.6l-1.4,21l2,21.2v70H390.4z M443.6,434.4c7.5,0,14.1-1.7,20-5.1
+				c5.9-3.4,10.5-8.2,14-14.4c3.5-6.2,5.2-13.4,5.2-21.5c0-8.1-1.7-15.3-5.2-21.4s-8.1-10.9-14-14.4c-5.9-3.5-12.5-5.2-20-5.2
+				s-14.2,1.7-20.1,5.2c-5.9,3.5-10.6,8.3-14,14.4c-3.4,6.1-5.1,13.3-5.1,21.4c0,8.1,1.7,15.3,5.1,21.5c3.4,6.2,8.1,11,14,14.4
+				C429.4,432.7,436.2,434.4,443.6,434.4z"/>
+			<path class="st9" d="M559.2,447c-9.9,0-17.5-2.7-22.8-8s-8-12.9-8-22.6v-98.6h14.2v97.8c0,6.1,1.6,10.9,4.7,14.2
+				c3.1,3.3,7.6,5,13.5,5c6.3,0,11.5-1.8,15.6-5.4l5,10.2c-2.8,2.5-6.2,4.4-10.1,5.6C567.4,446.4,563.4,447,559.2,447z M509.6,352.8
+				V341h65v11.8H509.6z"/>
+			<path class="st10" d="M607.2,446V341h14.2v105H607.2z M614.4,317.8c-2.9,0-5.4-1-7.4-3s-3-4.4-3-7.2c0-2.8,1-5.2,3-7.1
+				s4.5-2.9,7.4-2.9s5.4,0.9,7.4,2.8c2,1.9,3,4.2,3,7c0,2.9-1,5.4-2.9,7.4S617.5,317.8,614.4,317.8z"/>
+			<path class="st5" d="M422.3,544.4h-208V282.6h208V544.4z"/>
+		</g>
+	</g>
+</g>
+</svg>
+
+          
+        </div>
+
+	  {%- if site.data.sitetext[site.locale].header.button -%}
+        <a class="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="{{ site.data.sitetext[site.locale].header.buttonlink }}">{{ site.data.sitetext[site.locale].header.button }}</a>
+	  {%- endif -%}
+      </div>
+    </div>
+  </header>
+  <!-- End Header -->
