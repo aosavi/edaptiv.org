@@ -156,6 +156,18 @@ en: &DEFAULT_EN
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Claire-Stevenson-4
             icon: ai ai-researchgate
+      - name: "Dr. Dylan Molenaar"
+        role: "Principal Investigator"
+        image: assets/img/team/molenaar_square.jpg
+        social:
+          - url: http://www.dylanmolenaar.nl/
+            icon: fa fa-globe
+          - url: https://www.linkedin.com/in/dylan-molenaar-351a85b/
+            icon: fab fa-linkedin-in
+          - url: https://scholar.google.com/citations?user=TC5bbg8AAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Dylan-Molenaar
+            icon: ai ai-researchgate
       - name: "Sharon Klinkenberg"
         role: "Principal Investigator"
         image: assets/img/team/klinkenberg.jpg
