@@ -22,7 +22,7 @@ email      : #this is also the email contact forms will go to
 description: "edaptiv - Tomorrow's Technology for Today's Education"
 author     : Alexander Savi
 logo       :
-  path: assets\img\logo\edaptiv_logo_web_simple.png
+  path: assets\img\logo\edaptiv_logo_web_simple_transparent.png
   height: 52 #height in px, defaults to 52px
 
 locale: "en-US" # See available languages in _data/sitetext.yml
