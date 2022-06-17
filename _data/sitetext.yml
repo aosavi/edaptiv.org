@@ -18,7 +18,7 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Expertise"
-    text: "<strong>edaptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open for collaborations</strong> with scientific and educational partners.
+    text: "<strong>edaptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open for collaboration</strong> with scientific and educational partners.
     <br><strong>edaptiv</strong> believes <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapt to education. Our AI makes this happen."
     section: services
     list:
