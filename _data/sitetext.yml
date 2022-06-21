@@ -221,6 +221,18 @@ en: &DEFAULT_EN
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Simone-Plak
             icon: ai ai-researchgate
+      - name: "Dr. Susanne de Mooij"
+        role: "Research Fellow"
+        image: assets/img/team/demooij_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/susanne-de-mooij-4693a594
+            icon: fab fa-linkedin-in
+          - url: https://twitter.com/SusanneMooij
+            icon: fab fa-twitter
+          - url: https://scholar.google.com/citations?user=E997Pw8AAAAJ
+            icon: ai ai-google-scholar
+          - url: https://www.researchgate.net/profile/Susanne-De-Mooij
+            icon: ai ai-researchgate
       - name: "Yvonne Oberholzer, MSc"
         role: "Research Fellow"
         image: assets/img/team/oberholzer_square.jpg
