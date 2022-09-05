@@ -102,7 +102,7 @@ en: &DEFAULT_EN
     section: team
     people:
       - name: "Dr. Alexander Savi"
-        role: "Founder / Director / Principal Investigator"
+        role: "Founder / Director / Principal Investigator<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/savi_square.jpg
         social:
           - url: https://www.alexandersavi.nl/
@@ -116,7 +116,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Alexander-Savi
             icon: ai ai-researchgate
       - name: "Dr. Abe Hofman"
-        role: "Founder / Director / Principal Investigator"
+        role: "Founder / Director / Principal Investigator<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/hofman_square.jpg
         social:
           - url: https://www.linkedin.com/in/abehofman/
@@ -126,7 +126,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Abe-Hofman
             icon: ai ai-researchgate
       - name: "Dr. Maria Bolsinova"
-        role: "Principal Investigator"
+        role: "Principal Investigator<br>Tilburg University, the Netherlands"
         image: assets/img/team/bolsinova_square.jpg
         social:
           - url: https://www.linkedin.com/in/maria-bolsinova-0599b3127/
@@ -136,7 +136,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Maria-Bolsinova
             icon: ai ai-researchgate
       - name: "Dr. Matthieu Brinkhuis"
-        role: "Principal Investigator"
+        role: "Principal Investigator<br>Utrecht University, the Netherlands"
         image: assets/img/team/brinkhuis_square.jpg
         social:
           - url: https://www.linkedin.com/in/brinkhuis/
@@ -144,7 +144,7 @@ en: &DEFAULT_EN
           - url: https://scholar.google.com/citations?user=2IXY3n4AAAAJ
             icon: ai ai-google-scholar
       - name: "Dr. Claire Stevenson"
-        role: "Principal Investigator"
+        role: "Principal Investigator<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/stevenson_square.jpg
         social:
           - url: https://modelingcreativity.org
@@ -158,7 +158,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Claire-Stevenson-4
             icon: ai ai-researchgate
       - name: "Dr. Dylan Molenaar"
-        role: "Principal Investigator"
+        role: "Principal Investigator<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/molenaar_square.jpg
         social:
           - url: http://www.dylanmolenaar.nl/
@@ -170,7 +170,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Dylan-Molenaar
             icon: ai ai-researchgate
       - name: "Sharon Klinkenberg"
-        role: "Principal Investigator"
+        role: "Principal Investigator<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/klinkenberg.jpg
         social:
           - url: https://www.klinkenberg.amsterdam/
@@ -180,7 +180,7 @@ en: &DEFAULT_EN
           - url: https://scholar.google.co.il/citations?user=rB1Afg4AAAAJ
             icon: ai ai-google-scholar
       - name: "Prof. Dr. Han van der Maas"
-        role: "Advisory Board"
+        role: "Advisory Board<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/vandermaas_square.jpg
         social:
           - url: https://www.linkedin.com/in/han-l-j-van-der-maas-966b7111/
@@ -190,7 +190,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Han-Maas
             icon: ai ai-researchgate
       - name: "Prof. Dr. Martijn Meeter"
-        role: "Advisory Board"
+        role: "Advisory Board<br>VU Amsterdam, the Netherlands"
         image: assets/img/team/meeter_square.jpg
         social:
           - url: http://www.meeter.nl/m/
@@ -202,7 +202,7 @@ en: &DEFAULT_EN
           - url: https://scholar.google.com/citations?user=nRn5yqMAAAAJ
             icon: ai ai-google-scholar
       - name: "Dr. Brenda Jansen"
-        role: "Advisory Board"
+        role: "Advisory Board<br>University of Amsterdam, the Netherlands"
         image: assets/img/team/jansen_square.jpg
         social:
           - url: https://www.linkedin.com/in/brenda-jansen-a255b25
@@ -212,7 +212,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Brenda-Jansen
             icon: ai ai-researchgate
       - name: "Simone Plak, MSc"
-        role: "PhD Student"
+        role: "PhD Student<br>VU Amsterdam, the Netherlands"
         image: assets/img/team/plak_square.jpg
         social:
           - url: https://www.linkedin.com/in/simone-plak-249a31b6
@@ -222,7 +222,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Simone-Plak
             icon: ai ai-researchgate
       - name: "Dr. Susanne de Mooij"
-        role: "Research Fellow"
+        role: "Research Fellow<br>Radboud University, the Netherlands"
         image: assets/img/team/demooij_square.jpg
         social:
           - url: https://www.linkedin.com/in/susanne-de-mooij-4693a594
@@ -234,7 +234,7 @@ en: &DEFAULT_EN
           - url: https://www.researchgate.net/profile/Susanne-De-Mooij
             icon: ai ai-researchgate
       - name: "Yvonne Oberholzer, MSc"
-        role: "Research Fellow"
+        role: "Research Fellow<br>Karlsruhe Institute of Technology, Germany"
         image: assets/img/team/oberholzer_square.jpg
         social:
           - url: https://twitter.com/yvonneoberholz
