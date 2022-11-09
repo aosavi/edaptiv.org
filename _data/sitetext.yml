@@ -97,7 +97,8 @@ en: &DEFAULT_EN
   team:
     title: "TEAM"
     text: "Our principal investigators, research fellows, PhD students, and advisory board.
-    <br><br>For contact, use the form below or approach a principal investigator."
+    <br><br>For contact, use the form below or approach a principal investigator.
+    <a rel="me" href="https://fediscience.org/@savi"></a>"
     subtext:
     section: team
     people:
