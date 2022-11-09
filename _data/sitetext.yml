@@ -109,8 +109,8 @@ en: &DEFAULT_EN
             icon: fa fa-globe
           - url: https://www.linkedin.com/in/alexandersavi/
             icon: fab fa-linkedin-in
-          - url: https://twitter.com/alexandersavi
-            icon: fab fa-twitter
+          - url: https://fediscience.org/@savi
+            icon: fab fa-mastodon
           - url: https://scholar.google.com/citations?user=x8Him1UAAAAJ
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Alexander-Savi
