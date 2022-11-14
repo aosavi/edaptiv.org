@@ -18,8 +18,8 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Expertise"
-    text: "<strong>edaptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open for collaboration</strong> with scientific and educational partners.
-    <br><strong>edaptiv</strong> believes <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapt to education. Our AI makes this happen."
+    text: "<strong>EdAptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open for collaboration</strong> with scientific and educational partners.
+    <br><strong>EdAptiv</strong> believes <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapt to education. Our AI makes this happen."
     section: services
     list:
       - title: "Pedagogy-Driven AI"
@@ -53,9 +53,9 @@ en: &DEFAULT_EN
     body: "
     **Today's challenges in education demand a strong technological foundation.**
     <br><br>
-    **edaptiv** leverages solid scientific expertise with educational partnerships to conceptualize and create tomorrow's technological foundation.
-    **edaptiv** is an alliance of leading researchers in pedagogy-driven AI, adaptive learning algorithms, advanced learning analytics, massive causal evaluations, and formal educational theory.
-    **edaptiv** develops state-of-the-art educational technology and collaborates in research with both scientific and educational partners.
+    **EdAptiv** leverages solid scientific expertise with educational partnerships to conceptualize and create tomorrow's technological foundation.
+    **EdAptiv** is an alliance of leading researchers in pedagogy-driven AI, adaptive learning algorithms, advanced learning analytics, massive causal evaluations, and formal educational theory.
+    **EdAptiv** develops state-of-the-art educational technology and collaborates in research with both scientific and educational partners.
     <br><br>
 
     **Educational technology must respect individual variablity in learning and development.**
@@ -64,7 +64,7 @@ en: &DEFAULT_EN
     Varying environments and experiences, and their reciprocal interactions, yield a massive developmental variability.
     Cognitive abilities emerge from this complex developmental system.
     Educational technology can and must embrace that variability, by optimally guiding children during their individual development.
-    **edaptiv** develops educational technology that respects individual variability *by design*.
+    **EdAptiv** develops educational technology that respects individual variability *by design*.
     <br><br>
 
     **Educational AI must be informed and driven by pedagogy.**
@@ -72,7 +72,7 @@ en: &DEFAULT_EN
     Much too often, educational AI is ignorant of proven pedagogical principles.
     This is a major missed opportunity and a scorn to the many significant insights from substantive educational research.
     Educational AI must not only propel the pedagogical principles already effectively applied in educational practice, but also enable those principles that are hard to satisfy under everyday conditions.
-    **edaptiv** develops educational AI that respects pedagogical principles.
+    **EdAptiv** develops educational AI that respects pedagogical principles.
     "
     section: about
 
@@ -304,7 +304,7 @@ en: &DEFAULT_EN
 
   contact:
     title: "Work With Us"
-    text: "<strong>edaptiv</strong> welcomes <strong>collaborations</strong> with <strong>scientific</strong> and <strong>educational partners</strong>.
+    text: "<strong>EdAptiv</strong> welcomes <strong>collaborations</strong> with <strong>scientific</strong> and <strong>educational partners</strong>.
     <br><br>Interested? Drop us a line, we always reply."
     section: contact
     name: "Name*"
