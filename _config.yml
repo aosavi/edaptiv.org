@@ -17,9 +17,9 @@ remote_theme: raviriley/agency-jekyll-theme
 url    : "" # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: "/edaptiv.org" # the subpath of your site, e.g. /blog
 
-title      : edaptiv
+title      : EdAptiv
 email      : #this is also the email contact forms will go to
-description: "edaptiv - Tomorrow's Technology for Today's Education"
+description: "EdAptiv - Tomorrow's Technology for Today's Education"
 author     : Alexander Savi
 logo       :
   path: assets\img\logo\edaptiv_logo_web_simple_transparent.png
