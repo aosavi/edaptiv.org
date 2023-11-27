@@ -211,6 +211,12 @@ en: &DEFAULT_EN
             icon: ai ai-google-scholar
           - url: https://www.researchgate.net/profile/Brenda-Jansen
             icon: ai ai-researchgate
+      - name: "Annie Johansson, MSc"
+        role: "PhD Student<br>University of Amsterdam, the Netherlands"
+        image: assets/img/team/annie_square.jpg
+        social:
+          - url: https://www.linkedin.com/in/annie-johansson-30b141178/
+            icon: fab fa-linkedin-in
       - name: "Simone Plak, MSc"
         role: "PhD Student<br>VU Amsterdam, the Netherlands"
         image: assets/img/team/plak_square.jpg
