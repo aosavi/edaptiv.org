@@ -18,27 +18,27 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Expertise"
-    text: "<strong>EdAptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open for collaboration</strong> with scientific and educational partners.
-    <br><strong>EdAptiv</strong> believes <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapt to education. Our AI makes this happen."
+    text: "<strong>EdAptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open to collaborations</strong> with academic and educational partners.
+    <br><strong>EdAptiv</strong> believes that <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapting to education. Our AI makes this possible."
     section: services
     list:
       - title: "Pedagogy-Driven AI"
-        desc: "Ordinary educational AI is driven by data rather than pedagogy. Our AI is built upon **proven pedagogical principles**."
+        desc: "Ordinary educational AI is driven by data, not pedagogy. Our AI is built on **proven pedagogical principles**."
         icon: fa fa-atom # https://fontawesome.com/search?m=free
       - title: "Adaptive Algorithms"
-        desc: "Adaptive algorithms enable educational personalization. Our state-of-the-art algorithms are **tried-and-tested**."
+        desc: "Adaptive algorithms enable personalized learning. Our state-of-the-art algorithms are **tried-and-tested**."
         icon: fas fa-laptop
       - title: "Advanced Analytics"
-        desc: "Teachers must be able to spend their time on teaching. Our technology aids teachers with **insightful** and **actionable** learner analytics."
+        desc: "Teachers need to spend their time on teaching. Our technology supports teachers with **insightful** and **actionable** learner analytics."
         icon: fa fa-microscope
       - title: "Causal Evaluations"
-        desc: "What works for whom in education? Our causal evaluations are build to scale and **respect individual differences**."
+        desc: "What works for whom in education? Our causal evaluations are built to scale and **respect individual differences**."
         icon: fa fa-clipboard-check
       - title: "Game Development"
-        desc: "In educational games, modularity is key. Our modules, including item banks and scoring rules, are **at the core of games played daily**."
+        desc: "Modularity is key in educational games. Our modules, including item banks and scoring rules, are **at the core of games played every day**."
         icon: fa fa-chess
       - title: "Theory Formation"
-        desc: "Educational AI must be backed by educational theory. Our theory describes the **role of education** in learners' cognitive development."
+        desc: "Educational AI must be underpinned by educational theory. Our theory describes the **role of education** in the cognitive development of learners."
         icon: fa fa-brain
 
   portfolio:
@@ -51,27 +51,27 @@ en: &DEFAULT_EN
     title: "About Us"
     text: "Our vision and philosophy."
     body: "
-    **Today's challenges in education demand a strong technological foundation.**
+    **Today's educational challenges require a strong technology foundation.**
     <br><br>
-    **EdAptiv** leverages solid scientific expertise with educational partnerships to conceptualize and create tomorrow's technological foundation.
-    **EdAptiv** is an alliance of leading researchers in pedagogy-driven AI, adaptive learning algorithms, advanced learning analytics, massive causal evaluations, and formal educational theory.
-    **EdAptiv** develops state-of-the-art educational technology and collaborates in research with both scientific and educational partners.
+    **EdAptiv** combines deep scientific expertise with educational partnerships to design and build tomorrow's technology foundation.
+    **EdAptiv** is an alliance of leading researchers in pedagogy-driven AI, adaptive learning algorithms, advanced learning analytics, massive causal evaluation, and formal education theory.
+    **EdAptiv** develops cutting-edge educational technology and collaborates on research with both academic and educational partners.
     <br><br>
 
     **Educational technology must respect individual variability in learning and development.**
     <br><br>
     Children learn and develop in uniquely different ways.
-    Varying environments and experiences, and their reciprocal interactions, yield a massive developmental variability.
+    Different environments and experiences, and their interactions, result in massive developmental variability.
     Cognitive abilities emerge from this complex developmental system.
-    Educational technology can and must embrace that variability, by optimally guiding children during their individual development.
+    Educational technology can and must embrace this variability by optimally supporting children in their individual development.
     **EdAptiv** develops educational technology that respects individual variability *by design*.
     <br><br>
 
-    **Educational AI must be informed and driven by pedagogy.**
+    **Educational AI needs to be informed and driven by pedagogy.**
     <br><br>
-    Much too often, educational AI is ignorant of proven pedagogical principles.
-    This is a major missed opportunity and a scorn to the many significant insights from substantive educational research.
-    Educational AI must not only propel the pedagogical principles already effectively applied in educational practice, but also enable those principles that are hard to satisfy under everyday conditions.
+    Far too often, educational AI ignores proven pedagogical principles.
+    This is a huge missed opportunity and a disdain for the many important findings from substantive educational research.
+    Educational AI must not only advance the pedagogical principles that are already effectively used in educational practice, but also enable those principles that are difficult to satisfy under everyday conditions.
     **EdAptiv** develops educational AI that respects pedagogical principles.
     "
     section: about
@@ -96,8 +96,7 @@ en: &DEFAULT_EN
 
   team:
     title: "TEAM"
-    text: "Our principal investigators, research fellows, PhD students, and advisory board.
-    <br><br>For contact, use the form below or approach a principal investigator."
+    text: "Our principal investigators, research fellows, PhD students, and advisory board. To get in touch, please use the form below or contact a principal investigator."
     subtext:
     section: team
     people:
@@ -310,8 +309,8 @@ en: &DEFAULT_EN
 
   contact:
     title: "Work With Us"
-    text: "<strong>EdAptiv</strong> welcomes <strong>collaborations</strong> with <strong>scientific</strong> and <strong>educational partners</strong>.
-    <br><br>Interested? Drop us a line, we always reply."
+    text: "<strong>EdAptiv</strong> welcomes <strong>collaborations</strong> with <strong>academic</strong> and <strong>educational partners</strong>.
+    <br><br>Interested? Drop us a line, we always respond."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
