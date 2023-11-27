@@ -96,7 +96,8 @@ en: &DEFAULT_EN
 
   team:
     title: "TEAM"
-    text: "Our principal investigators, research fellows, PhD students, and advisory board. To get in touch, please use the form below or contact a principal investigator."
+    text: "Our principal investigators, research fellows, PhD students, and advisory board.
+    <br>To get in touch, please use the form below or contact a principal investigator."
     subtext:
     section: team
     people:
@@ -310,7 +311,7 @@ en: &DEFAULT_EN
   contact:
     title: "Work With Us"
     text: "<strong>EdAptiv</strong> welcomes <strong>collaborations</strong> with <strong>academic</strong> and <strong>educational partners</strong>.
-    <br><br>Interested? Drop us a line, we always respond."
+    <br>Interested? Drop us a line, we always respond."
     section: contact
     name: "Name*"
     name-validation: "Please enter your name."
