@@ -18,8 +18,8 @@ en: &DEFAULT_EN
 
   services:
     title: "Our Expertise"
-    text: "<normal><strong>EdAptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open to collaborations</strong> with academic and educational partners.
-    <br><strong>EdAptiv</strong> believes that <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapting to education. Our AI makes this possible.</normal>"
+    text: "<strong>EdAptiv</strong> is an <strong>interuniversity alliance</strong> of edtech researchers, <strong>open to collaborations</strong> with academic and educational partners.
+    <br><strong>EdAptiv</strong> believes that <strong>education</strong> must <strong>adapt</strong> to the learner, rather than the learner adapting to education. Our AI makes this possible."
     section: services
     list:
       - title: "Pedagogy-Driven AI"
